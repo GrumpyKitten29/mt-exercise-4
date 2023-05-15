@@ -27,3 +27,5 @@ OMP_NUM_THREADS=$num_threads python -m joeynmt train $configs/$model_name.yaml >
 
 echo "time taken:"
 echo "$SECONDS seconds"
+
+read -r -n 1
